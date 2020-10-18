@@ -63,7 +63,7 @@ class Todo1 extends React.Component {
                     this.setState({show: false});
                   }}>
                   <Image source={arrow} />
-                </TouchableOpacity>{' '}
+                </TouchableOpacity>
                 <Modal transparent={true} visible={this.state.show}>
                   <View style={styles.containerModal}>
                     <View style={styles.popupModal}>

@@ -14,8 +14,8 @@ class Profile extends React.Component {
   };
   render() {
     return (
-      <ScrollView>
-        <View style={styles.container}>
+      <View style={styles.container}>
+        <ScrollView>
           <View style={styles.header}>
             <Image source={Avatar} style={styles.Avatar} />
           </View>
@@ -36,8 +36,8 @@ class Profile extends React.Component {
               </Text>
             </TouchableOpacity>
           </View>
-        </View>
-      </ScrollView>
+        </ScrollView>
+      </View>
     );
   }
 }

@@ -6,8 +6,8 @@ import taskbar from '../assets/icon/taskbar.png';
 class Homepage extends React.Component {
   render() {
     return (
-      <ScrollView>
-        <View style={styles.container}>
+      <View style={styles.container}>
+        <ScrollView>
           <View style={styles.header}>
             <TouchableOpacity
               style={styles.barIcon}
@@ -39,8 +39,8 @@ class Homepage extends React.Component {
               <Text>...</Text>
             </TouchableOpacity>
           </View>
-        </View>
-      </ScrollView>
+        </ScrollView>
+      </View>
     );
   }
 }
